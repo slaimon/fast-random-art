@@ -6,7 +6,7 @@ It's just a proof of concept. My original idea for this project was much broader
 
 ## Running the demo
 
-The demo is available at the [project page](https://slaimon.github.io/wra-demo). Just type any string in the Controls box and click Paint, just like the original website.
+The demo is available at the [project page](https://slaimon.github.io/fast-random-art). Just type any string in the Controls box and click Paint, just like the original website.
 
 There are two canvases, side by side: one uses the original JS renderer and the other, written by me, uses WebGL. The rendering times are shown underneath so you can see that it's cut by 50 to 100 times!
 
