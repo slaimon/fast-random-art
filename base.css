@@ -178,8 +178,8 @@ legend {
 
 .renderer {
     text-align: center;
-    width: fit-content;
-    min-width: 450px;
+    height: 500px;
+    width: 450px;
 }
 #oldRendererToggle {
     width: 1.5em;
