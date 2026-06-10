@@ -22,6 +22,8 @@ function getJobParameters() {
     
     const selected_encoding = document.querySelector("input[name=stringEncoding]:checked").id;
     if (selected_encoding === "serverside") {
+        // Kudos to Hugh, a commenter on Andrej Bauer's blog, who figured out this trick
+        // https://math.andrej.com/2010/08/17/random-art-and-the-law-of-rotten-software/
         seed = unescape(encodeURIComponent(seed));
     }
 
