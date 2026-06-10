@@ -37,7 +37,20 @@
                             <div id="advancedControls" style="display: none;">
                                 <hr>
                                 <label for="dnaSize">DNA size:</label>
-                                <input id="dnaSize" type="text" class="labeledElement tightField" size="3" maxlength="3" autocomplete="off">
+                                <input id="dnaSize" type="text" class="labeledElement tightField"
+                                size="3" maxlength="3" autocomplete="off">
+                                <br>
+                                <fieldset id="stringEncoding">
+                                    <legend>String encoding:</legend>
+                                    <div>
+                                        <input type="radio" id="clientside" name="stringEncoding" class="labeledElement tightField" checked>
+                                        <label for="clientside">Client-side</label>
+                                    </div>
+                                    <div>    
+                                        <input type="radio" id="serverside" name="stringEncoding" class="labeledElement tightField">
+                                        <label for="serverside">Server-side</label>
+                                    </div>
+                                </fieldset>
                             </div>
                         </form>
                     </div>

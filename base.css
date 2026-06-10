@@ -35,7 +35,6 @@ textarea[readonly=true] {
     border-radius: 3px;
 }
 label {
-    float: left;
     margin-right: 1em;
     margin: 0.25em 1em 0.25em 0;
     font-size: small;
@@ -53,7 +52,17 @@ label {
     margin: 0;
     margin-bottom: 0.25em;
 }
-fieldset {
+
+legend {
+    font-size: small;
+    padding: 3px;
+}
+#stringEncoding {
+    border: 1px solid green;
+    border-radius: 3px;
+    padding: 5px;
+}
+#resolutionInput {
     border: none;
     padding: 0px;
 }

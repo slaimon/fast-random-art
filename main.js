@@ -18,7 +18,13 @@ const ctx = canvas.getContext("2d");
 
 var lastSubmittedJob = undefined;
 function getJobParameters() {
-    const seed = seedElement.value;
+    var seed = seedElement.value;
+    
+    const selected_encoding = document.querySelector("input[name=stringEncoding]:checked").id;
+    if (selected_encoding === "serverside") {
+        seed = unescape(encodeURIComponent(seed));
+    }
+
     var size;
     // only compute the default DNA size if:
     // - the "seed" input field is empty
